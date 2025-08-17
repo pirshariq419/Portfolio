@@ -131,35 +131,47 @@ a{
 .skills .items .item img{
   width:70px;
 }
-/* Contact */
+
+/* Contact Section (Fixed for Mobile + Desktop) */
+.contact {
+  text-align: center;
+  margin-top: 40px;
+}
+
 .contact-icon {
-  height: 30vh;
   display: flex;
+  flex-wrap: wrap;        /* allow icons to wrap */
   justify-content: center;
   align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 10px;
+  height: auto;           /* no fixed vh */
 }
 
 .contact-icon .items {
   background-color: black;
-  margin: 10px;
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 100%;
   border: 2px solid yellow;
+  transition: all 0.3s ease-in-out;
 }
 
 .contact-icon .items:hover {
   background-color: var(--bg-color);
   box-shadow: var(--box-shadow);
+  transform: scale(1.1);
 }
 
 .contact-icon .items .icons {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
+/* Tablet and below */
 @media screen and (max-width: 768px) {
   .home {
     flex-direction: column;
@@ -247,8 +259,7 @@ a{
 
   /* Contact Section */
   .contact-icon {
-    flex-direction: row;
-    height: 40vh;
+    gap: 12px;
   }
 
   .contact-icon .items {
@@ -328,69 +339,69 @@ a{
   }
 
   .nav_bar .nav_items {
-    font-size: 0.8rem; /* Smaller font size */
+    font-size: 0.8rem;
   }
 
   .home {
-    height: 70vh; /* Reduced height */
+    height: 70vh;
   }
 
   .home .left {
-    padding: 5px; /* Reduced padding */
+    padding: 5px;
     margin-left: 200px;
   }
 
   .home .right .img img {
-    height: 100px; /* Smaller image height */
-    width: 100px; /* Smaller image width */
+    height: 100px;
+    width: 100px;
     margin-left: 200px;
   }
 
   .ex {
-    padding: 5px; /* Reduced padding */
-    margin: 10px auto; /* Ensure it stays centered */
+    padding: 5px;
+    margin: 10px auto;
     width:140vw;
   }
 
   .ex-items {
-    padding: 5px; /* Reduced padding */
-    font-size: 0.8rem; /* Smaller font size */
-    overflow-wrap: break-word; /* Ensures text wraps within the container */
-    width: 95%; /* Adjust width to avoid overflow */
+    padding: 5px;
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
+    width: 95%;
   }
 
   /* Skills section */
   .skills .items .item {
-    padding: 7px; /* Reduced padding */
-    font-size: 0.9rem; /* Smaller font size */
+    padding: 7px;
+    font-size: 0.9rem;
   }
+
   /* Contact section */
   .contact-icon {
-    height: 20vh;
+    gap: 8px;
   }
 
   .contact-icon .items {
-    height: 20px;
-    width: 20px;
+    height: 40px;
+    width: 40px;
   }
 
   .contact-icon .items .icons {
-    font-size: 1rem;
-    transition: none;
+    font-size: 1.2rem;
   }
 }
 @media screen and (max-width:375px){
   .ex {
-    padding: 5px; /* Reduced padding */
-    margin: 10px auto; /* Ensure it stays centered */
+    padding: 5px;
+    margin: 10px auto;
     width:150vw;
   }
 
   .ex-items {
-    padding: 5px; /* Reduced padding */
-    font-size: 0.8rem; /* Smaller font size */
-    overflow-wrap: break-word; /* Ensures text wraps within the container */
-    width: 95%; /* Adjust width to avoid overflow */
+    padding: 5px;
+    font-size: 0.8rem;
+    overflow-wrap: break-word;
+    width: 95%;
   }
 }
 @media screen and (max-width:1440px){
@@ -487,12 +498,12 @@ a{
     margin-bottom: 20px;
   }
   .contact-icon .items {
-    width: 40px !important;
-    height: 40px !important;
+    width: 45px !important;
+    height: 45px !important;
     margin: 5px !important;
   }
   .contact-icon .items .icons {
-    font-size: 1.2rem !important;
+    font-size: 1.3rem !important;
   }
   h1, h2, h3, h4, h5 {
     word-break: break-word;
