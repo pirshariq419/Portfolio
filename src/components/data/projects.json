@@ -1,0 +1,56 @@
+[
+  {
+    "key": 1,
+    "title": "E-Commerce WebApp",
+    "imageSrc": "assets/projects/ecomm.png",
+    "description": "Developed “KashArt”, a MERN Stack-based e-commerce platform with integrated PayPal and card payment options.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pirshariq419/KashArt-WebApp",
+    "deploy": "https://kashart.vercel.app/"
+  },
+  {
+    "key": 2,
+    "title": "Chat Application",
+    "imageSrc": "assets/projects/chatapp.avif",
+    "description": "Developed “TulipTalk”, a MERN-based real-time chat app with Socket.io for instant messaging, JWT authentication, and responsive UI using Tailwind CSS.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pirshariq419/TulipTalk",
+    "deploy": "https://tuliptalk.onrender.com/"
+  },
+  {
+    "key": 3,
+    "title": "Multiple Diseases Prediction System",
+    "imageSrc": "assets/projects/multipledis.png",
+    "description": "Developed a “Machine Learning-based Multiple Disease Prediction System” that analyzes patient data to predict the likelihood of various diseases like Diabetes, Heart Disease and Parkinsons Disease.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pirshariq419/Multiple-Diseases-Prediction",
+    "deploy": "https://diseasesprediction619.streamlit.app/"
+  },
+  {
+    "key": 4,
+    "title": "E-Learning Platform",
+    "imageSrc": "assets/projects/logo.png",
+    "description": "Developed a website named “EduBag” ultimate educational companion for students, offering comprehensive resources for students preparing for competitive exams like NEET, JEE, and more.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pirshariq419/Edubag",
+    "deploy": "https://edubag-419.vercel.app/"
+  },
+  {
+    "key": 5,
+    "title": "Penetration Testing",
+    "imageSrc": "assets/projects/pentesting.png",
+    "description": "Implemented a “penetration testing workflow” using the Nikto scanner to detect vulnerabilities like outdated software and misconfigurations.",
+    "demo": "https://www.example.com",
+    "source": "https://drive.google.com/file/d/1WFwJwqM-4yn5KEhbt4t_mlp_2WHi0yh-/view?usp=drivesdk",
+    "deploy": ""
+  },
+  {
+    "key": 6,
+    "title": "Automated Security Testing",
+    "imageSrc": "assets/projects/seleniumtest.jpg",
+    "description": "Developed a user-friendly “web application” to automate common web security testing tasks. The system integrates Selenium for automation and BeautifulSoup for HTML parsing.",
+    "demo": "https://www.example.com",
+    "source": "https://drive.google.com/file/d/1eLRTnixNbM2V0FXRyDVdKwVB1dmD8UMw/view?usp=drivesdk",
+    "deploy": ""
+  }
+]

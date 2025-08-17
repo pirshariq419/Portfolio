@@ -1,0 +1,74 @@
+[
+  {
+    "title":"C Lang",
+    "imageSrc":"skills/c.png"
+  },
+  {
+    "title":"Java",
+    "imageSrc":"skills/java.png"
+  },
+  {
+    "title":"Python",
+    "imageSrc":"skills/python.png"
+  },
+  {
+    "title":"DSA",
+    "imageSrc":"skills/dsa.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png"
+  },
+  {
+    "title": "React JS",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "title": "Node JS",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title":"Firebase",
+    "imageSrc":"skills/firebase.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "My SQL",
+    "imageSrc": "skills/mysql.jpeg"
+  },
+  {
+    "title": "AIML",
+    "imageSrc": "skills/machine.jpeg"
+  },
+  {
+    "title": "Flutter",
+    "imageSrc": "skills/flutter.png"
+  },
+  {
+    "title": "Natural Language Processing(NLP)",
+    "imageSrc": "skills/nlp.jpeg"
+  },
+  {
+    "title": "Vercel Deployment",
+    "imageSrc": "skills/vercel.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman.png"
+  },
+  {
+    "title": "Gen-AI&LLMs",
+    "imageSrc": "skills/gen-ai.png"
+  }
+]
