@@ -5,7 +5,6 @@ import { CiLinkedin } from "react-icons/ci";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
-import { SiGeeksforgeeks } from "react-icons/si";
 
 const Contact = () => {
   return (

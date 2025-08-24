@@ -21,7 +21,7 @@
     "key": 3,
     "title": "Multiple Diseases Prediction System",
     "imageSrc": "assets/projects/multipledis.png",
-    "description": "Developed a “Machine Learning-based Multiple Disease Prediction System” that analyzes patient data to predict the likelihood of various diseases like Diabetes, Heart Disease and Parkinsons Disease.",
+    "description": "Developed a “Machine Learning-based Multiple Disease Prediction System” that analyzes patient data to predict the likelihood of various diseases. ",
     "demo": "https://www.example.com",
     "source": "https://github.com/pirshariq419/Multiple-Diseases-Prediction",
     "deploy": "https://diseasesprediction619.streamlit.app/"
@@ -37,6 +37,15 @@
   },
   {
     "key": 5,
+    "title": "LSTM Anomaly Detection System",
+    "imageSrc": "assets/projects/anomalytest.png",
+    "description": "Built an LSTM Autoencoder system for industrial fault detection using Python, TensorFlow, and Flask to identify anomalies in multivariate time series data.",
+    "demo": "https://www.example.com",
+    "source": "https://github.com/pirshariq419/Anomaly-Detection",
+    "deploy": "https://anomaly-detection-0g2p.onrender.com/"
+  },
+  {
+    "key": 6,
     "title": "Penetration Testing",
     "imageSrc": "assets/projects/pentesting.png",
     "description": "Implemented a “penetration testing workflow” using the Nikto scanner to detect vulnerabilities like outdated software and misconfigurations.",
@@ -45,7 +54,7 @@
     "deploy": ""
   },
   {
-    "key": 6,
+    "key": 7,
     "title": "Automated Security Testing",
     "imageSrc": "assets/projects/seleniumtest.jpg",
     "description": "Developed a user-friendly “web application” to automate common web security testing tasks. The system integrates Selenium for automation and BeautifulSoup for HTML parsing.",
