@@ -1,12 +1,12 @@
 [
   {
     "key": 1,
-    "title": "E-Commerce WebApp",
-    "imageSrc": "assets/projects/ecomm.png",
-    "description": "Developed “KashArt”, a MERN Stack-based e-commerce platform with integrated PayPal and card payment options.",
+    "title": "AI Career Coach",
+    "imageSrc": "assets/projects/zoonai.png",
+    "description": "Developed “ZoonAI”, a Full-stack AI career coach web app using Next.js, Tailwind, Prisma, Shadcn UI, and Gemini AI, offering interview preparation, resume building and many more.",
     "demo": "https://www.example.com",
-    "source": "https://github.com/pirshariq419/KashArt-WebApp",
-    "deploy": "https://kashart.vercel.app/"
+    "source": "https://github.com/pirshariq419/ZoonAI",
+    "deploy": "https://zoonai.vercel.app/"
   },
   {
     "key": 2,
