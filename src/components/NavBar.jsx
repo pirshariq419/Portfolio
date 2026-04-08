@@ -13,7 +13,7 @@ const NavBar = () => {
         return () => window.removeEventListener("keydown", handleKey);
     }, [menuOpen]);
     return (
-        <nav className="navbar navbar-expand-md navbar-dark bg-transparent py-2" role="navigation" aria-label="Main Navigation">
+        <nav className="nav_bar navbar navbar-expand-md navbar-dark py-2" role="navigation" aria-label="Main Navigation">
             <div className="container">
                 <a className="navbar-brand fw-bold" href="#home">Portfolio</a>
                 <button

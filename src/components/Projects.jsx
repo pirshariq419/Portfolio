@@ -3,61 +3,37 @@ import project from "./data/projects.json";
 
 const Projects = () => {
   return (
-    <>
-      <div className="container projects my-3" id="projects">
-        <h1>PROJECTS</h1>
-        <div className="row d-flex justify-content-space-between align-items-center">
-          {project.map((data) => (
-            <>
-              <div
-                key={data.id}
-                className="my-4  col-sm-6 col-md-4 col-lg-3 mx-4"
-              >
-                <div
-                  className="card bg-dark text-light"
-                  style={{
-                    width: "18rem",
-                    border: "1px solid yellow",
-                    boxShadow: "5px 5px 10px 10px rgba(101, 175, 10, 0.5)",
-                  }}
-                  data-aos="flip-right"
-                  data-aos-duration="1000"
-                >
-                  <div className="img d-flex justify-content-center align-content-center p-3">
-                    <img
-                      src={data.imageSrc}
-                      className="card-img-top"
-                      alt="..."
-                      style={{
-                        width: "250px",
-                        height: "200px",
-                        border: "2px solid yellow",
-                        borderRadius: "10px",
-                      }}
-                    />
-                  </div>
-                  <div className="card-body text-center">
-                    <h5 className="card-title">{data.title}</h5>
-                    <p className="card-text">{data.description}</p>
-                    {/* <a href={data.demo} className="btn btn-primary mx-3">
-                      Demo
-                    </a> */}
-                    <div className="d-flex align-items-center justify-content-between">
-                      <a href={data.source} className="btn btn-warning" target="_blank">
-                        Source Code
-                      </a>
-                      <a href={data.deploy} className="btn btn-primary" target="_blank">
-                        Deployed Link
-                      </a>
-                    </div>
-                  </div>
-                </div>
+    <div className="container projects my-3" id="projects">
+      <h1 className="section-title">PROJECTS</h1>
+      <div className="row-grid">
+        {project.map((data) => (
+          <div
+            key={data.id}
+            className="project-card glass-panel"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
+            <img
+              src={data.imageSrc}
+              className="project-card-img"
+              alt={data.title}
+            />
+            <div className="project-card-body text-center">
+              <h5 className="project-card-title">{data.title}</h5>
+              <p className="project-card-text">{data.description}</p>
+              <div className="project-card-actions">
+                <a href={data.source} className="btn-secondary-custom" target="_blank" rel="noreferrer">
+                  Source Code
+                </a>
+                <a href={data.deploy} className="btn-primary-custom" target="_blank" rel="noreferrer">
+                  Deployed Link
+                </a>
               </div>
-            </>
-          ))}
-        </div>
+            </div>
+          </div>
+        ))}
       </div>
-    </>
+    </div>
   );
 };
 

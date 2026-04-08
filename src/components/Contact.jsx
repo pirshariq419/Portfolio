@@ -10,39 +10,36 @@ const Contact = () => {
   return (
     <>
       <div className="container contact" id="contact">
-        <h1>CONTACT ME</h1>
+        <h1 className="section-title">CONTACT ME</h1>
         <div
           className="contact-icon"
           data-aos="zoom-in-up"
           data-aos-duration="1000"
         >
-          <a href="https://leetcode.com/u/pirshariq419/" target="_blank" className="items">
-          <SiLeetcode  className="icons"/>
+          <a href="https://leetcode.com/u/pirshariq419/" target="_blank" rel="noreferrer" className="items">
+            <SiLeetcode className="icons"/>
           </a>
-          <a href="https://www.linkedin.com/in/pirshariq419/" target="_blank" className="items">
+          <a href="https://www.linkedin.com/in/pirshariq419/" target="_blank" rel="noreferrer" className="items">
             <CiLinkedin className="icons" />
           </a>
-          <a href="https://github.com/pirshariq419" target="_blank" className="items">
+          <a href="https://github.com/pirshariq419" target="_blank" rel="noreferrer" className="items">
             <FaGithubSquare className="icons" />
           </a>
-          <a href="https://twitter.com/pirshariq419" target="_blank" className="items">
+          <a href="https://twitter.com/pirshariq419" target="_blank" rel="noreferrer" className="items">
             <FaSquareXTwitter className="icons" />  
           </a>
-          <a href="https://facebook.com/pirzada.shariq.52" target="_blank" className="items">
+          <a href="https://facebook.com/pirzada.shariq.52" target="_blank" rel="noreferrer" className="items">
             <FaFacebookSquare className="icons" />  
           </a>
-          <a href="https://www.instagram.com/pirshariq419/" target="_blank" className="items">
+          <a href="https://www.instagram.com/pirshariq419/" target="_blank" rel="noreferrer" className="items">
             <FaInstagram className="icons" />
           </a>
-          <a href="https://www.youtube.com/@pirshariq419/" target="_blank" className="items">
+          <a href="https://www.youtube.com/@pirshariq419/" target="_blank" rel="noreferrer" className="items">
             <FaYoutubeSquare className="icons" />
           </a>
-          <a
-            href="mailto:pirshariq419@gmail.com"
-            className="items"
-        >
-       <SiGmail className="icons" />
-        </a>
+          <a href="mailto:pirshariq419@gmail.com" className="items">
+            <SiGmail className="icons" />
+          </a>
         </div>
       </div>
     </>

@@ -23,7 +23,7 @@ const Home = () => {
                 data-aos="fade-up-right"
                 data-aos-duration="1000">
                     <h1 ref={typedRef}></h1>
-                    <a href={pdf} download="Resume.pdf" className="btn btn-outline-warning my-3">
+                    <a href={pdf} download="Resume.pdf" className="btn-primary-custom my-3">
                         Download Resume
                     </a>
                 </div>
