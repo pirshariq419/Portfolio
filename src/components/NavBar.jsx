@@ -33,13 +33,16 @@ const NavBar = () => {
                             <a href="#home" className="nav-link" onClick={() => setMenuOpen(false)}>Home</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a>
-                        </li>
-                        <li className="nav-item">
                             <a href="#skills" className="nav-link" onClick={() => setMenuOpen(false)}>Skills</a>
                         </li>
                         <li className="nav-item">
-                            <a href="#projects" className="nav-link" onClick={() => setMenuOpen(false)}>Project</a>
+                            <a href="#projects" className="nav-link" onClick={() => setMenuOpen(false)}>Projects</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#certifications" className="nav-link" onClick={() => setMenuOpen(false)}>Certifications</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#education" className="nav-link" onClick={() => setMenuOpen(false)}>Education</a>
                         </li>
                         <li className="nav-item">
                             <a href="#contact" className="nav-link" onClick={() => setMenuOpen(false)}>Contact</a>

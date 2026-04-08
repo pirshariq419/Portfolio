@@ -5,6 +5,7 @@ import Education from './components/Education';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Certifications from './components/Certifications';
 import Aos from "aos";
 import "aos/dist/aos.css";
 function App() {
@@ -16,9 +17,10 @@ function App() {
       <NavBar />
       <div className="container">
       <Home />
-      <Education />
       <Skills />
       <Projects />
+      <Certifications />
+      <Education />
       <Contact />
       </div>
     </>

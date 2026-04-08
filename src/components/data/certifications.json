@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Artificial Intelligence",
+    "organization": "HoneyWell",
+    "date": "2026",
+    "link": "https://futureskillsedge.in/certificate/internship/1/1418100",
+    "imageSrc": "certifications/ai_hw.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Generative AI",
+    "organization": "Oracle",
+    "date": "2025",
+    "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=B821BC722414787E3BAA02FEFD829B276A2D03FBD4F9014DF69E9FD21A7EE6D5",
+    "imageSrc": "certifications/genai.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Web Development",
+    "organization": "Internshala",
+    "date": "2024",
+    "link": "https://trainings.internshala.com/view_certificate/68f7qmvxljh/91rdvrrz16n/",
+    "imageSrc": "certifications/web_dev.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Java - Beginner to Master",
+    "organization": "Udemy",
+    "date": "2024",
+    "link": "https://drive.google.com/file/d/196q0Rqx30qt2Yb6NiUCCRNARrZUhVkjV/view?usp=sharing",
+    "imageSrc": "certifications/java_udemy.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Ultimate MS Office",
+    "organization": "Udemy",
+    "date": "2024",
+    "link": "https://drive.google.com/file/d/1YoBwDgMiWaw9Yu-jJNUHg3Ss6ojVuSDI/view?usp=sharing",
+    "imageSrc": "certifications/ms_office.jpg"
+  }
+]
