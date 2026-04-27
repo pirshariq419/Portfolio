@@ -1,14 +1,14 @@
 [
   {
     "id": 1,
-    "role": "Bachelor Of Technology(B.TECH)",
+    "role": "Bachelor Of Technology (B.TECH)",
     "organisation": "Google",
     "startDate": "2022 to 2026",
     "endDate": "",
     "location": "Jawaharlal Nehru Techological University Hyderabad",
     "experiences": [
-      "Computer Science and Engineering(CSE)",
-      "CGPA: 8.0"
+      "Computer Science and Engineering (CSE)",
+      "CGPA: 8.06"
     ],
     "imageSrc": "assets/education/jntuhlogo.png"
   },
