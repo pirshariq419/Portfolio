@@ -2,22 +2,22 @@
   {
     "id": 1,
     "role": "Bachelor Of Technology (B.TECH)",
-    "organisation": "Google",
+    "organisation": "JNTUH",
     "startDate": "2022 to 2026",
     "endDate": "",
     "location": "Jawaharlal Nehru Techological University Hyderabad",
     "experiences": [
       "Computer Science and Engineering (CSE)",
-      "CGPA: 8.06"
+      "CGPA: 8.24"
     ],
     "imageSrc": "assets/education/jntuhlogo.png"
   },
   {
     "id": 2,
     "role": "Higher Secondary Education",
-    "organisation": "Boys Higher Secondary School, Hirri",
+    "organisation": "JKBOSE",
     "startDate": "2021",
-    "location": "Hirri Kupwara, J&K",
+    "location": "Government Boys Higher Secondary School, Hirri Kupwara, J&K",
     "experiences": [
       "Maths Physics Chemistry(MPC)",
       "Percentage: 95.6"
@@ -27,9 +27,9 @@
   {
     "id": 3,
     "role": "Board of Secondary Education",
-    "organisation": "Boys Higher Secondary School, Kupwara",
+    "organisation": "JKBOSE",
     "startDate": "2019",
-    "location": "Kupwara, J&K",
+    "location": "Government Boys Model Higher Secondary School Kupwara, J&K",
     "experiences": [
       "GPA: 7.8"
     ],
